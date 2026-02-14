@@ -21,7 +21,7 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
-                    className="flex-1 text-center md:text-left space-y-6"
+                    className="flex-1 text-center md:text-left space-y-6 pt-20 md:pt-0"
                 >
                     <h1 className="text-4xl md:text-6xl font-serif font-bold tracking-tight text-violet-900 leading-tight">
                         Transforma el Conflicto Legal en <span className="text-primary italic">Paz y Abundancia</span>.
@@ -29,7 +29,7 @@ export default function Hero() {
                     <p className="text-xl md:text-2xl text-slate-600 max-w-2xl mx-auto md:mx-0 font-light">
                         Un programa de 10 semanas de Abogacía Holística para desbloquear tu dinero, sanar tus vínculos y habitar tu cuerpo como un espacio seguro.
                     </p>
-                    <div className="pt-4">
+                    <div className="pt-4 hidden md:block">
                         <Link href="https://wa.me/5493416297856" target="_blank">
                             <Button size="lg" className="rounded-full text-lg px-8 py-6 bg-violet-600 hover:bg-violet-700 shadow-lg hover:shadow-xl transition-all duration-300">
                                 Aplicar al Programa
@@ -42,7 +42,7 @@ export default function Hero() {
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
-                    className="flex-1 relative flex justify-center md:justify-center"
+                    className="flex-1 relative flex flex-col items-center justify-center md:justify-center"
                 >
                     <div className="relative w-full max-w-[320px]"> {/* More compact and harmonious */}
                         {/* Ethereal Glow */}
@@ -64,6 +64,15 @@ export default function Hero() {
                                 className="w-full h-full object-cover"
                             />
                         </div>
+                    </div>
+
+                    {/* Mobile Button - Below Video */}
+                    <div className="mt-8 md:hidden w-full flex justify-center">
+                        <Link href="https://wa.me/5493416297856" target="_blank">
+                            <Button size="lg" className="rounded-full text-lg px-8 py-6 bg-violet-600 hover:bg-violet-700 shadow-lg hover:shadow-xl transition-all duration-300 w-full max-w-[320px]">
+                                Aplicar al Programa
+                            </Button>
+                        </Link>
                     </div>
                 </motion.div>
             </div>

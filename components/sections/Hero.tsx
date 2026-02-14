@@ -67,7 +67,7 @@ export default function Hero() {
                     </div>
 
                     {/* Mobile Button - Below Video */}
-                    <div className="mt-8 md:hidden w-full flex justify-center">
+                    <div className="mt-12 md:hidden w-full flex justify-center">
                         <Link href="https://wa.me/5493416297856" target="_blank">
                             <Button size="lg" className="rounded-full text-lg px-8 py-6 bg-violet-600 hover:bg-violet-700 shadow-lg hover:shadow-xl transition-all duration-300 w-full max-w-[320px]">
                                 Aplicar al Programa

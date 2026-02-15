@@ -23,8 +23,8 @@ export default function Hero() {
                     transition={{ duration: 0.8 }}
                     className="flex-1 text-center md:text-left space-y-6 pt-20 md:pt-0"
                 >
-                    <h1 className="text-4xl md:text-6xl font-serif font-bold tracking-tight text-violet-900 leading-tight">
-                        Transforma el Conflicto Legal en <span className="text-primary italic">Paz y Abundancia</span>.
+                    <h1 className="text-4xl md:text-6xl font-serif font-bold tracking-tight leading-tight bg-gradient-to-r from-violet-900 via-violet-400 to-violet-900 bg-[length:200%_auto] animate-shimmer bg-clip-text text-transparent">
+                        Transforma el Conflicto Legal en <span className="italic">Paz y Abundancia</span>.
                     </h1>
                     <p className="text-xl md:text-2xl text-slate-600 max-w-2xl mx-auto md:mx-0 font-light">
                         Un programa de 10 semanas de Abogacía Holística para desbloquear tu dinero, sanar tus vínculos y habitar tu cuerpo como un espacio seguro.

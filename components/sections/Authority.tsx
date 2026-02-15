@@ -15,11 +15,15 @@ export default function Authority() {
                     viewport={{ once: true }}
                     className="relative"
                 >
-                    <div className="w-48 h-48 md:w-64 md:h-64 relative">
-                        {/* Organic border effect */}
-                        <div className="absolute inset-0 rounded-full border-4 border-violet-400 animate-pulse-slow"></div>
-                        <div className="absolute -inset-4 rounded-full border border-violet-300"></div>
-                        <div className="relative w-full h-full rounded-full overflow-hidden shadow-2xl border-4 border-white">
+                    <div className="w-48 h-48 md:w-64 md:h-64 relative flex items-center justify-center">
+                        {/* Fixed Violet Halo / Beam of Light */}
+                        <div className="absolute inset-0 rounded-full bg-violet-500 blur-[60px] opacity-60 z-0"></div>
+
+                        {/* Distinct Violet Circle Ring */}
+                        <div className="absolute -inset-2 rounded-full border-4 border-violet-500/80 z-10 shadow-[0_0_40px_rgba(139,92,246,0.6)]"></div>
+
+                        {/* Image Container */}
+                        <div className="relative w-full h-full rounded-full overflow-hidden shadow-2xl border-4 border-white z-20">
                             <Image
                                 src="/FOTO LEILA.jpg"
                                 alt="Leila Andrea Rubio"

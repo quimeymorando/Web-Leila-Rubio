@@ -14,7 +14,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "La Ley del Amor - Leila Andrea Rubio",
-  description: "Transforma el Conflicto Legal en Paz y Abundancia. Programa de 10 semanas de Abogacía Holística.",
+  description: "Transforma el Conflicto en Paz y Abundancia. Programa de 10 semanas de Abogacía Holística.",
 };
 
 export default function RootLayout({

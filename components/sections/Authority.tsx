@@ -45,7 +45,7 @@ export default function Authority() {
                         Soy Leila Andrea Rubio
                     </h2>
                     <h3 className="text-lg md:text-xl text-violet-600 font-medium uppercase tracking-wider">
-                        Abogada · Consteladora · Biodecodificadora
+                        Abogada Holística
                     </h3>
                     <p className="text-slate-600 text-lg leading-relaxed max-w-2xl mx-auto">
                         "Mi misión es acompañarte a pasar del dolor al placer, y de la escasez a la abundancia. Entiendo el lenguaje de la ley y el lenguaje del alma, y estoy aquí para traducir esa tensión en libertad."
